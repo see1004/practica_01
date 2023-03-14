@@ -1,1 +1,5 @@
-
+public float sumaDos(float x){
+float y;
+y = x + 2;
+return y;
+}
