@@ -4,6 +4,9 @@ y = x + 2;
 return y;
 }
 
+public static void funcionEstupida(string z){
+
+
 public static void main(String[] Args){
 float i = 100;
 System.out.println(sumaDos(i));
