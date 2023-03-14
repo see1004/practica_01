@@ -1,20 +1,23 @@
-public static float sumaDos(float x){
-float y;
-y = x + 2;
-return y;
+package retoques;
+public class Pruebas {
+
+  public static float sumaDos(float x){
+    float y;
+    y = x + 2;
+    return y;
+    }
+
+
+    public static float elevaCuadrado(float x){
+    float y;
+    y = x*x
+    return y;
+    }
+
+
+    public static void main(String[] Args){
+    float i = 100;
+    System.out.println(sumaDos(i));
+    }
 }
-
-
-public static float elevaCuadrado(float x){
-float y;
-y = x*x
-return y;
-}
-
-
-public static void main(String[] Args){
-float i = 100;
-System.out.println(sumaDos(i));
-}
-
 
