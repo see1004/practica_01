@@ -1,0 +1,21 @@
+public enum Color {
+
+	BLANCO ('B'),
+	NEGRO ('N'); 
+  
+	private char letra; 
+  
+	private Color (char letra) {
+		this.letra = letra; 
+	}
+	public char toChar() {
+		return letra; 
+	}
+	public Color obtenerContrario() {
+		if (letra == 'B') {
+			return NEGRO; 
+		}else {
+			return BLANCO; 
+		}		
+	}
+}
